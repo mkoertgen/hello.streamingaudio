@@ -5,6 +5,17 @@ VisualStudioVersion = 15.0.26020.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello.streamingaudio", "hello.streamingaudio\hello.streamingaudio.csproj", "{2417DBDA-3378-418F-8FE4-B9663586D207}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC6AECBF-121C-4914-A40B-E293E5ABAD3B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		before.hello.streamingaudio.sln.targets = before.hello.streamingaudio.sln.targets
+		build.bat = build.bat
+		empty.targets = empty.targets
+		solution.targets = solution.targets
+		SolutionInfo.cs = SolutionInfo.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace hello.streamingaudio
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MediaPlayerView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MediaPlayerView : UserControl
     {
-        public MainWindow()
+        public MediaPlayerView()
         {
             InitializeComponent();
         }
